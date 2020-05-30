@@ -1,5 +1,5 @@
 {
-  "name": "@elishaterada/limit-characters",
+  "name": "limit-characters",
   "version": "1.0.0",
   "description": "Limit characters with different criteria",
   "main": "lib/index.js",
@@ -15,8 +15,18 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elishaterada/limit-characters.git"
+  },
+  "keywords": [
+    "truncate",
+    "characters",
+    "limit",
+    "break-word"
+  ],
   "author": "Elisha Terada",
-  "dependencies": {
+  "devDependencies": {
     "@types/jest": "^25.2.3",
     "jest": "^25.5.4",
     "prettier": "^2.0.5",
